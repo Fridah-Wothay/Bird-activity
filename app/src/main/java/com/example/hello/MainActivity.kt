@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.btnNext.setOnClickListener{
+        binding.btnNext4.setOnClickListener{
             val intent = Intent(this, SecondBirdActivity::class.java)
             startActivity(intent)
         }
